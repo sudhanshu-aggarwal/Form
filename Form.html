@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<title>Form</title>
+</head>
+<body>
+	<header>
+		<h1>Form Demo</h1>
+	</header>
+	<form>
+		<section>
+			<fieldset>
+				<br>
+				<legend>Text input</legend>
+				<label for="textbox">Text box </label>
+				<input type="Text" name="textbox" id="textbox" value="text here"><br><br>
+				<label for="pass">Password </label>
+				<input type="Password" name="pass" id="pass" value="123456"><br><br>
+				<label for="textarea"> Text Area </label>
+				<textarea name="textarea" id="textarea" placeholder="Your text here" rows="4" cols="150"></textarea>
+				<br><br>
+			</fieldset>
+		</section>
+		<section>
+			<fieldset>
+				<br>
+				<legend>Selecting elements</legend>
+				<label for="dropdown">Select List</label>
+				<select name="dropdown" id="dropdown">
+					<option value="One">One</option>
+					<option value="Two">Two</option>
+					<option value="Three">Three</option>
+				</select><br><br>
+				Check boxes 
+				<input type="checkbox" name="Green" value="Green Eggs" id="Green">
+				<label for="Green"> Green Eggs</label>
+				<input type="checkbox" name="ham" id="ham" value="Ham">
+				<label for="ham"> Ham</label><br><br>
+				Radio buttons
+				<input type="Radio" name="size" id="small" value="small" checked="checked">
+				<label for="small">small</label>
+				<input type="Radio" name="size" id="medium" value="medium">
+				<label for="medium">medium</label>
+				<input type="Radio" name="size" id="large" value="large">
+				<label for="large">large</label>
+				<br><br>
+			</fieldset>
+		</section>
+		<section>
+			<fieldset>
+				<br>
+				<legend>Buttons</legend>
+				<button type="button">standard button</button>
+				<button type="button">input button</button>
+				<input type="Reset" name="Reset" value="Reset">
+				<input type="submit" name="Submit" value="Submit">
+				<br><br>
+			</fieldset>
+		</section>
+	</form>
+	
+</body>
+</html>
